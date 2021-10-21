@@ -48,9 +48,10 @@ body, html {
     -webkit-box-sizing: border-box;-moz-box-sizing: border-box;
     border:1px solid #BEBEBE;
     padding: 7px;
-    margin:0px;-webkit-transition: all 0.30s ease-in-out;-moz-transition: all 0.30s ease-in-out;
+    margin:0px;
+    /*-webkit-transition: all 0.30s ease-in-out;-moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;-o-transition: all 0.30s ease-in-out;
-    outline: none;	
+    outline: none;	*/
   }
   .form-style-1 input[type=text]:focus, 
   .form-style-1 input[type=date]:focus,
@@ -565,4 +566,3 @@ body, html {
 
 .w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{
     color:#757575!important}
-
