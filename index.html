@@ -1,1 +1,271 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<title>Group A179</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<!--<link rel="stylesheet" href="w3cafe.css">-->
+<!--<link rel="stylesheet" href="fontfamily-inconsolata.css">-->
+<link rel="stylesheet" href="stylesheet.css">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+
+
+<style>
+    .mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+<div class="w3-row w3-padding w3-black">
+<div class="w3-col s3">
+<a href="#" class="w3-button w3-block w3-black">BERANDA</a>
+</div>
+<div class="w3-col s3">
+<a href="#about" class="w3-button w3-block w3-black">TENTANG KAMI</a>
+</div>
+<div class="w3-col s3">
+<a href="#menu" class="w3-button w3-block w3-black">DAFTAR MENU</a>
+</div>
+<div class="w3-col s3">
+<a href="#where" class="w3-button w3-block w3-black">HUBUNGI KAMI</a>
+</div>
+</div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+<div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+
+<!--text span dibawah ini gak muncul, why?-->
+<span class="w3-tag">Jam Buka 07:00 - 21:00</span>
+</div>
+
+
+<div class="w3-display-middle w3-center">
+<span class="w3-text-white" style="font-size:75px">Resto Manteb<br><i>Pakde Ron</i></span>
+</div>
+
+<div class="w3-display-bottomright w3-center w3-padding-large">
+<span class="w3-text-white2" style="font-size:14px"> Nyaman, Tenang, Full Musik, Free Wifi, Free Charger, Prokes Ketat </span>
+</div>
+
+</header>
+
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+<div class="w3-content" style="max-width:700px">
+<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Perkenalan Restoran Kami</span></h5>
+<p> Restoran sederhana dengan harga menu terjangkau, tanpa mengurangi kualitas makanan dan minuman </p>
+<p> Pas <i>banget</i> untuk keluarga, <i>cocok</i> untuk acara resmi atau sekedar nongkrong sambil menikmati <strong><i>free wifi 100 Mbps "dedicated"</i></strong> kami </p>
+<div class="w3-panel w3-leftbar w3-light-grey">
+<p><i>"nasi goreng, nasi pecel, nasi campur, ikan bakar, ayam bakar, coffee, lemon tea, juice.... semua ada".</i></p>
+<p> Koki resto : Pakde Ron</p>
+</div>
+<img src="restoran.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+<p><strong>Jam buka Resto :</strong> buka setiap hari jam 07:00 - 21:00.</p>
+<p><strong>Alamat :</strong> Ciputra Mall Surabaya, Blok XYZ No.7. Jl. Mayjen Sungkono no. 89 Surabaya.</p>
+</div>
+</div>
+
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+<div class="w3-content" style="max-width:700px">
+
+<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">DAFTAR MENU UTAMA</span></h5>
+
+<div class="w3-row w3-center w3-card w3-padding">
+<a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+<div class="w3-col s6 tablink">Makanan</div>
+</a>
+<a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+<div class="w3-col s6 tablink">Minuman</div>
+</a>
+</div>
+
+<div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+<h5>Nasi Goreng</h5>
+<p class="w3-text-grey">Nasi Goreng Spesial Rp. 10.000.</p><br>
+
+<h5>Nasi Pecel</h5>
+<p class="w3-text-grey">Nasi Pecel Spesial Rp. 10.000.</p><br>
+
+<h5>Nasi Campur</h5>
+<p class="w3-text-grey">Nasi Campur Spesial RP.10.000</p><br>
+
+<h5>Ikan Bakar</h5>
+<p class="w3-text-grey">Ikan Bakar plus Nasi untuk 2 orang Rp. 45.000.</p><br>
+
+<h5>Ayam Bakar</h5>
+<p class="w3-text-grey">Ayam Bakar plus Nasi untuk 2 orang Rp. 45.000.</p>
+</div>
+
+<div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+<h5>Lemon Tea</h5>
+<p class="w3-text-grey">Diolah dari daun teh asli + Lemon Rp.7.000.</p><br>
+
+<h5>Kopi Panas</h5>
+<p class="w3-text-grey">Kopi Hitam / Kopi Susu Rp. 3.000.</p><br>
+
+<h5>Juice</h5>
+<p class="w3-text-grey">Banyak pilihan buah Rp. 7.000.</p><br>
+
+<h5>Soft Drink</h5>
+<p class="w3-text-grey">Coca Cola, Sprite, Fanta dan sejenisnya Rp. 5.500.</p><br>
+
+<h5>Soda Gembira</h5>
+<p class="w3-text-grey">Susu Soda Gelas Jumbo Rp. 12.000.</p>
+
+</div>
+
+
+
+
+
+<div class="w3-content w3-section" style="max-width:500px">
+
+  <img class="mySlides" src="ikanbakar1.png" style="width:100%">
+  <img class="mySlides" src="nasicampur1.png" style="width:100%">
+  <img class="mySlides" src="ayambakar1.png" style="width:100%">
+  <img class="mySlides" src="nasigoreng1.png" style="width:100%">
+  <img class="mySlides" src="nasipecel1.png" style="width:100%">
+  <img class="mySlides" src="juice1.png" style="width:100%">
+  <img class="mySlides" src="nasicampur1.png" style="width:100%">
+</div>
+
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // gambar berubah tiap 2 detik (2000)
+    }
+    </script>
+
+
+
+<!-- Area untuk kontak / Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+<div class="w3-content" style="max-width:700px">
+
+  <!-- Info lokasi kami sementara di hold karena sudah ada alamat di bagian atas
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">LOKASI KAMI</span></h5>
+<p>Via Google maps cari saja Ciputra World Surabaya, kita ada disana.</p>
+<img src="Ciputra Surabaya2.jpg" class="w3-image" style="width:100%">-->
+
+
+<p><span class="w3-tag">INFO PENTING :</span> Kami juga menerima Pesanan. Dapatkan <i>harga khusus</i> untuk pemesanan diatas 25 orang.</p>
+<p><strong>Hubungi kami</strong>, pesan tempat, tanya menu khusus hari ini, atau kirim pesan / kritik / saran :</p>
+
+<!-- Form versi 2-->
+<form>
+      <ul class="form-style-1">
+          <li><label>Nama lengkap <span class="required">*</span></label>
+          <input type="text" name="field1" class="field-divided" placeholder="Nama Depan" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Nama Belakang" /></li>
+          
+          <li>
+              <label>No. HP yang bisa dihubungi (WA) <span class="required">*</span></label>
+              <input type="email" name="field3" class="field-long" />
+          </li>
+          <li>
+              <label>Informasi apa yang Anda butuhkan</label>
+              <select name="field4" class="field-select">
+              <option value="umum">Saya ingin bertanya informasi umum</option>
+              <option value="menu">Saya ingin memperoleh daftar menu resto terbaru</option>
+              <option value="pesanan">Saya ingin melakukan pesanan / reservasi</option>
+              <option value="krisar">Saya ingin memberikan kritik & saran</option>
+              </select>
+          </li>
+          <li>
+              <label>Silahkan menulis pesan Anda <span class="required">*</span></label>
+              <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+          </li>
+          <li>
+              <input type="submit" value="Submit" />
+          </li>
+      </ul>
+      </form>
+
+
+
+
+
+<!--Ini form versi 1 SEMENTARA TIDAK DIGUNAKAN
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nama" required name="Name"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Berapa Orang ?" required name="People"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Tanggal & Jam" required name="date" value="2017-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Pesan / Permintaan Khusus " required name="Message"></p>
+<p><button class="w3-button w3-black" type="submit">KIRIM</button></p>
+</form>
+</div>
+</div>
+-->
+
+<!-- End page content -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<p>Website ini Dikelola Oleh <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Group A179</a></p>
+<p>Didukung  oleh : </p>
+<img src="kominfo1.png">
+<img src="progate1.png">
+<img src="ugm1.png">
+<img src="cfds1.png">
+</footer>
+
+
+<!-- Menu dibawah untuk pembuatan script pilihan menu-->
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+var i, x, tablinks;
+x = document.getElementsByClassName("menu");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < x.length; i++) {
+tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+}
+document.getElementById(menuName).style.display = "block";
+evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+
+    
+
+
+
+</body>
+</html>
+
+<!-- bagian atas ini sudah dicari css nya-->
 
